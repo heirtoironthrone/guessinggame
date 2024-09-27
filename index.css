@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+div.main{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(100, 212, 212);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+div.buttons{
+    margin-bottom: 10px;
+}
+
+div.buttons button{
+    padding:5px 10px;
+    font-family: monospace;
+    font-size:30px;
+    border-radius:10px;
+    border:none;
+    box-shadow: 3px 3px 10px rgb(97, 95, 95);
+    cursor:pointer;
+}
+
+div.buttons button:hover{
+    background-color: azure;
+}
+
+button.submit{
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius:10px;
+    border:none;
+    box-shadow: 3px 3px 10px rgb(97, 95, 95);
+    cursor:pointer;
+    font-family: monospace;
+}
+
+button.submit:hover{
+    background-color: azure;
+}
+p{
+    font-family: monospace;
+    font-size: 30px;
+    margin-top:-10px;
+
+}
